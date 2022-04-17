@@ -2297,7 +2297,7 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
-		.image.left.small, .image.right.small {
+		.image.leftsmall, .image.rightsmall {
 			max-width: 25%;
 		}
 
