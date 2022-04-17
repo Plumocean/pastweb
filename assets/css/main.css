@@ -2022,7 +2022,7 @@ input, select, textarea {
 			}
 
 			form.search > input:first-child {
-				padding-left: 2.5cm;
+				padding-left: 2.5em;
 			}
 
 	label {
