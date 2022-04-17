@@ -2301,17 +2301,17 @@ input, select, textarea {
 			max-width: 25%;
 		}
 
-			.image.left img, .image.right img {
-				width: 100%;
-			}
+		.image.left img, .image.right img, .image.leftsmall img, .image.rightsmall img {
+			width: 100%;
+		}
 
-		.image.left {
+		.image.left, .image.leftsmall {
 			float: left;
 			padding: 0 1.5em 1em 0;
 			top: 0.25em;
 		}
 
-		.image.right {
+		.image.right, .image.rightsmall {
 			float: right;
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
