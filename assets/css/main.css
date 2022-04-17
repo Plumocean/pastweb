@@ -3495,6 +3495,51 @@ input, select, textarea {
 			}
 
 	}
+/* Refresh */
+#refresh header h2 {
+	font-size: 2em;
+	font-weight: 900;
+}
+
+#refresh header p {
+	font-size: 0.8em;
+}
+
+@media screen and (max-width: 1280px) {
+
+	#refresh {
+		margin: 0 0 3em 0;
+	}
+
+		#refresh header h2 {
+			font-size: 2em;
+			text-align: center;
+		}
+
+		#refresh header p {
+			font-size: 0.7em;
+		}
+}
+
+@media screen and (max-width: 736px) {
+
+	#refresh {
+		margin: 0 0 1.5em 0;
+		padding: 1.25em 0;
+	}
+
+		#refresh > :last-child {
+			margin-bottom: 0;
+		}
+
+		#refresh header h2 {
+			font-size: 1.25em;
+		}
+
+		#refresh header > :last-child {
+			margin-bottom: 0;
+		}
+}
 
 /* Footer */
 
