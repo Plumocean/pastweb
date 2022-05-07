@@ -70,7 +70,7 @@
 		$search_input
 			.on('keydown', function(event) {
 
-				if (event.keyCode == 27)
+				if (event.keyCode == 27) // 27 means Esc so this part let the form disappear
 					$search_input.blur();
 
 			})
